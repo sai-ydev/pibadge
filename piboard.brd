@@ -1,0 +1,2204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<fusionsync huburn="a.YnVzaW5lc3M6YW5zYWJpbzU" projecturn="a.YnVzaW5lc3M6YW5zYWJpbzUjMjAyMzAyMDg2MDcwOTUxNTY" f3durn="urn:adsk.wipprod:dm.lineage:7Zefd35ZR_qY6hh92jSj3w" pcbguid="" lastpulledtime="2023-02-08T03:47:43Z" lastsyncedchangeguid="" latestrevisionid="03ad6b58-598d-41bf-9747-2ed0b5c576d4" lastsyncedrevisionid="03ad6b58-598d-41bf-9747-2ed0b5c576d4" lastboardhashguid="" lastpushedtime="" linktopcb3d="true"/>
+<plain>
+<wire x1="28.6245" y1="72.5277" x2="20.9573" y2="72.5277" width="0.1524" layer="20" locked="yes"/>
+<wire x1="20.9573" y1="72.5277" x2="8.4763" y2="65.7164" width="0.1524" layer="20" curve="49.0732" locked="yes"/>
+<wire x1="8.4763" y1="65.7164" x2="5.1074" y2="60.0301" width="0.1524" layer="20" locked="yes"/>
+<wire x1="5.1074" y1="60.0301" x2="1.0387" y2="60.0301" width="0.1524" layer="20" locked="yes"/>
+<wire x1="1.0387" y1="60.0301" x2="6.643" y2="74.8975" width="0.1524" layer="20" locked="yes"/>
+<wire x1="13.1889" y1="81.5528" x2="6.643" y2="74.8975" width="0.1524" layer="20" curve="47.7411" locked="yes"/>
+<wire x1="32.3352" y1="85.206" x2="13.1889" y2="81.5528" width="0.1524" layer="20" curve="21.6045" locked="yes"/>
+<wire x1="32.3352" y1="85.206" x2="88.3644" y2="85.206" width="0.1524" layer="20" locked="yes"/>
+<wire x1="88.3644" y1="85.206" x2="88.3644" y2="71.9859" width="0.1524" layer="20" locked="yes"/>
+<wire x1="88.3644" y1="71.9859" x2="67.7152" y2="71.9859" width="0.1524" layer="20" locked="yes"/>
+<wire x1="67.7152" y1="71.9859" x2="65.2973" y2="26.4168" width="0.1524" layer="20" curve="6.0746" locked="yes"/>
+<wire x1="65.2973" y1="26.4168" x2="85.0481" y2="26.4168" width="0.1524" layer="20" curve="180" locked="yes"/>
+<wire x1="85.0481" y1="26.4168" x2="88.6456" y2="26.4168" width="0.1524" layer="20" locked="yes"/>
+<wire x1="84.1715" y1="11.6019" x2="88.6456" y2="26.4168" width="0.1524" layer="20" curve="16.9672" locked="yes"/>
+<wire x1="52.6192" y1="12.9588" x2="84.1715" y2="11.6019" width="0.1524" layer="20" curve="134.3488" locked="yes"/>
+<wire x1="51.5316" y1="25.2288" x2="52.6192" y2="12.9588" width="0.1524" layer="20" curve="20.9348" locked="yes"/>
+<wire x1="51.5316" y1="25.2288" x2="56.0047" y2="72.5277" width="0.1524" layer="20" locked="yes"/>
+<wire x1="56.0047" y1="72.5277" x2="36.8631" y2="72.5277" width="0.1524" layer="20" locked="yes"/>
+<wire x1="36.8631" y1="72.5277" x2="32.0072" y2="21.1804" width="0.1524" layer="20" locked="yes"/>
+<wire x1="31.3987" y1="17.3751" x2="32.0072" y2="21.1804" width="0.1524" layer="20" curve="7.3651" locked="yes"/>
+<wire x1="28.111" y1="8.1598" x2="31.3987" y2="17.3751" width="0.1524" layer="20" curve="13.7347" locked="yes"/>
+<wire x1="8.8561" y1="13.2333" x2="28.111" y2="8.1598" width="0.1524" layer="20" curve="169.2563" locked="yes"/>
+<wire x1="10.5279" y1="16.958" x2="8.8561" y2="13.2333" width="0.1524" layer="20" curve="29.5666" locked="yes"/>
+<wire x1="10.5279" y1="16.958" x2="28.6245" y2="68.1236" width="0.1524" layer="20" curve="38.9561" locked="yes"/>
+<wire x1="28.6245" y1="68.1236" x2="28.6245" y2="72.5277" width="0.1524" layer="20" locked="yes"/>
+<wire x1="47.9642" y1="107.9716" x2="40.0757" y2="107.952" width="0.1524" layer="20" curve="307.7266" locked="yes"/>
+<wire x1="47.9642" y1="107.9716" x2="40.0757" y2="107.952" width="0.1524" layer="20" curve="6.907" locked="yes"/>
+<wire x1="53.7318" y1="107.3807" x2="34.3111" y2="107.3326" width="0.1524" layer="20" curve="263.3454" locked="yes"/>
+<wire x1="34.3111" y1="107.3326" x2="53.7318" y2="107.3807" width="0.1524" layer="20" curve="342.9431" locked="yes"/>
+</plain>
+<libraries>
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="FIDUCIAL-1X2" urn="urn:adsk.eagle:footprint:36997/1" library_version="1">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="FIDUCIAL-1X2" urn="urn:adsk.eagle:package:37108/1" type="box" library_version="1">
+<description>Fiducial - Circle, 1mm
+Point-of-reference for pick-and-place machines and other optical instruments.
+Devices using:
+FIDUCIAL</description>
+<packageinstances>
+<packageinstance name="FIDUCIAL-1X2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="RP2040">
+<packages>
+<package name="QFN40P700X700X90-57N">
+<rectangle x1="-0.98" y1="-0.98" x2="0.98" y2="0.98" layer="31"/>
+<text x="-4.105" y="-5.105" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-4.105" y="5.105" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-4.475" y="2.6" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.475" y="2.6" radius="0.1" width="0.2" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.02" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.02" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.02" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.02" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="-3.02" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="3.02" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.02" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="3.02" width="0.127" layer="21"/>
+<wire x1="-4.105" y1="-4.105" x2="4.105" y2="-4.105" width="0.05" layer="39"/>
+<wire x1="-4.105" y1="4.105" x2="4.105" y2="4.105" width="0.05" layer="39"/>
+<wire x1="-4.105" y1="-4.105" x2="-4.105" y2="4.105" width="0.05" layer="39"/>
+<wire x1="4.105" y1="-4.105" x2="4.105" y2="4.105" width="0.05" layer="39"/>
+<smd name="15" x="-2.6" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="16" x="-2.2" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="17" x="-1.8" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="18" x="-1.4" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="19" x="-1" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="20" x="-0.6" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="21" x="-0.2" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="22" x="0.2" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="23" x="0.6" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="24" x="1" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="25" x="1.4" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="26" x="1.8" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="27" x="2.2" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="28" x="2.6" y="-3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="43" x="2.6" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="44" x="2.2" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="45" x="1.8" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="46" x="1.4" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="47" x="1" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="48" x="0.6" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="49" x="0.2" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="50" x="-0.2" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="51" x="-0.6" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="52" x="-1" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="53" x="-1.4" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="54" x="-1.8" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="55" x="-2.2" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="56" x="-2.6" y="3.435" dx="0.2" dy="0.84" layer="1" roundness="25"/>
+<smd name="1" x="-3.435" y="2.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="2" x="-3.435" y="2.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="3" x="-3.435" y="1.8" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="4" x="-3.435" y="1.4" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="5" x="-3.435" y="1" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="6" x="-3.435" y="0.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="7" x="-3.435" y="0.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="8" x="-3.435" y="-0.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="9" x="-3.435" y="-0.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="10" x="-3.435" y="-1" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="11" x="-3.435" y="-1.4" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="12" x="-3.435" y="-1.8" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="13" x="-3.435" y="-2.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="14" x="-3.435" y="-2.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="29" x="3.435" y="-2.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="30" x="3.435" y="-2.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="31" x="3.435" y="-1.8" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="32" x="3.435" y="-1.4" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="33" x="3.435" y="-1" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="34" x="3.435" y="-0.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="35" x="3.435" y="-0.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="36" x="3.435" y="0.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="37" x="3.435" y="0.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="38" x="3.435" y="1" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="39" x="3.435" y="1.4" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="40" x="3.435" y="1.8" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="41" x="3.435" y="2.2" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="42" x="3.435" y="2.6" dx="0.84" dy="0.2" layer="1" roundness="25"/>
+<smd name="57" x="0" y="0" dx="3.1" dy="3.1" layer="1" cream="no"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0402" urn="urn:adsk.eagle:footprint:37389/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
+<description>Generic 1005 (0402) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0402" urn="urn:adsk.eagle:footprint:39625/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:39657/1" type="box" library_version="1">
+<description>Generic 1005 (0402) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:39307/1" library_version="1">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:39354/1" type="box" library_version="1">
+<description>LED 0603 SMT
+0603, surface mount.
+Specifications:
+Pin count: 2
+Pin pitch:0.075inch 
+Area: 0.06" x 0.03"
+
+Example device(s):
+LED - BLUE</description>
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="ABLS-12.000MHZ-B4-T">
+<packages>
+<package name="XTAL_ABLS-12.000MHZ-B4-T">
+<wire x1="-5.7" y1="2.35" x2="-5.7" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="5.7" y1="2.35" x2="5.7" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="-5.7" y1="2.35" x2="5.7" y2="2.35" width="0.127" layer="51"/>
+<wire x1="-5.7" y1="-2.35" x2="5.7" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="-7.8" y1="2.6" x2="-7.8" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="-7.8" y1="-2.6" x2="7.8" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="7.8" y1="-2.6" x2="7.8" y2="2.6" width="0.05" layer="39"/>
+<wire x1="7.8" y1="2.6" x2="-7.8" y2="2.6" width="0.05" layer="39"/>
+<wire x1="-5.7" y1="2.35" x2="5.7" y2="2.35" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-2.35" x2="5.7" y2="-2.35" width="0.127" layer="21"/>
+<text x="-7.8" y="2.85" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-7.8" y="-2.85" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-4.75" y="0" dx="5.6" dy="2.1" layer="1"/>
+<smd name="2" x="4.75" y="0" dx="5.6" dy="2.1" layer="1"/>
+</package>
+</packages>
+</library>
+<library name="OPL_Capacitor" urn="urn:adsk.eagle:library:8004261">
+<description>&lt;b&gt;Seeed Open Parts Library (OPL) for the Seeed Fusion PCB Assembly Service
+&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com/opl.html" title="https://www.seeedstudio.com/opl.html"&gt;Seeed Fusion PCBA OPL&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com/fusion_pcb.html"&gt;Order PCB/PCBA&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com"&gt;www.seeedstudio.com&lt;/a&gt;
+&lt;br&gt;&lt;/b&gt;</description>
+<packages>
+<package name="C0603" urn="urn:adsk.eagle:footprint:8004273/1" library_version="3">
+<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
+<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<text x="0.889" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-1.5875" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-0.254" y="1.27" size="0.635" layer="33" ratio="10" rot="R270">&gt;name</text>
+<rectangle x1="-1.27" y1="-0.508" x2="1.27" y2="0.508" layer="39" rot="R270"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:8004287/1" type="box" library_version="3">
+<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SON127P800X600X80-9N">
+<description>&lt;b&gt;8-CONTACT ULTRA-THIN SMALL OUTLINE NO-LEAD (WSON) PACKAGE 8X6MM (L)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.9" y="1.905" dx="0.95" dy="0.45" layer="1"/>
+<smd name="2" x="-3.9" y="0.635" dx="0.95" dy="0.45" layer="1"/>
+<smd name="3" x="-3.9" y="-0.635" dx="0.95" dy="0.45" layer="1"/>
+<smd name="4" x="-3.9" y="-1.905" dx="0.95" dy="0.45" layer="1"/>
+<smd name="5" x="3.9" y="-1.905" dx="0.95" dy="0.45" layer="1"/>
+<smd name="6" x="3.9" y="-0.635" dx="0.95" dy="0.45" layer="1"/>
+<smd name="7" x="3.9" y="0.635" dx="0.95" dy="0.45" layer="1"/>
+<smd name="8" x="3.9" y="1.905" dx="0.95" dy="0.45" layer="1"/>
+<smd name="9" x="0" y="0" dx="4.75" dy="4.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.625" y1="3.3" x2="4.625" y2="3.3" width="0.05" layer="51"/>
+<wire x1="4.625" y1="3.3" x2="4.625" y2="-3.3" width="0.05" layer="51"/>
+<wire x1="4.625" y1="-3.3" x2="-4.625" y2="-3.3" width="0.05" layer="51"/>
+<wire x1="-4.625" y1="-3.3" x2="-4.625" y2="3.3" width="0.05" layer="51"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.1" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-3" width="0.1" layer="51"/>
+<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.1" layer="51"/>
+<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.1" layer="51"/>
+<wire x1="-4" y1="1" x2="-2" y2="3" width="0.1" layer="51"/>
+<circle x="-4.375" y="2.63" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="QFN40P500X500X80-41N">
+<description>&lt;b&gt;QFN-40&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.5" y="1.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="2" x="-2.5" y="1.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="3" x="-2.5" y="1" dx="0.8" dy="0.2" layer="1"/>
+<smd name="4" x="-2.5" y="0.6" dx="0.8" dy="0.2" layer="1"/>
+<smd name="5" x="-2.5" y="0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="6" x="-2.5" y="-0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="7" x="-2.5" y="-0.6" dx="0.8" dy="0.2" layer="1"/>
+<smd name="8" x="-2.5" y="-1" dx="0.8" dy="0.2" layer="1"/>
+<smd name="9" x="-2.5" y="-1.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="10" x="-2.5" y="-1.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="11" x="-1.8" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="-1.4" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="-1" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="14" x="-0.6" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="15" x="-0.2" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="16" x="0.2" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="17" x="0.6" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="18" x="1" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="19" x="1.4" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="1.8" y="-2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="2.5" y="-1.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="22" x="2.5" y="-1.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="23" x="2.5" y="-1" dx="0.8" dy="0.2" layer="1"/>
+<smd name="24" x="2.5" y="-0.6" dx="0.8" dy="0.2" layer="1"/>
+<smd name="25" x="2.5" y="-0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="26" x="2.5" y="0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="27" x="2.5" y="0.6" dx="0.8" dy="0.2" layer="1"/>
+<smd name="28" x="2.5" y="1" dx="0.8" dy="0.2" layer="1"/>
+<smd name="29" x="2.5" y="1.4" dx="0.8" dy="0.2" layer="1"/>
+<smd name="30" x="2.5" y="1.8" dx="0.8" dy="0.2" layer="1"/>
+<smd name="31" x="1.8" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="32" x="1.4" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="33" x="1" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="34" x="0.6" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="35" x="0.2" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="36" x="-0.2" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="37" x="-0.6" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="38" x="-1" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="39" x="-1.4" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="40" x="-1.8" y="2.5" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="41" x="0" y="0" dx="3.8" dy="3.8" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.125" y1="3.125" x2="3.125" y2="3.125" width="0.05" layer="51"/>
+<wire x1="3.125" y1="3.125" x2="3.125" y2="-3.125" width="0.05" layer="51"/>
+<wire x1="3.125" y1="-3.125" x2="-3.125" y2="-3.125" width="0.05" layer="51"/>
+<wire x1="-3.125" y1="-3.125" x2="-3.125" y2="3.125" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.1" x2="-2.1" y2="2.5" width="0.1" layer="51"/>
+<circle x="-2.9" y="2.4" radius="0.1" width="0.2" layer="25"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:footprint:40113/1" library_version="1">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
+<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
+<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:40176/1" type="box" library_version="1">
+<description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
+Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
+Datasheet</description>
+<packageinstances>
+<packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="19-337C_RSBHGHC-A88_4T">
+<packages>
+<package name="LED_19-337C/RSBHGHC-A88/4T">
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.35" y1="1.175" x2="1.35" y2="1.175" width="0.05" layer="39"/>
+<wire x1="1.35" y1="1.175" x2="1.35" y2="-1.175" width="0.05" layer="39"/>
+<wire x1="1.35" y1="-1.175" x2="-1.35" y2="-1.175" width="0.05" layer="39"/>
+<wire x1="-1.35" y1="-1.175" x2="-1.35" y2="1.175" width="0.05" layer="39"/>
+<circle x="1.7" y="0.8" radius="0.1" width="0.2" layer="21"/>
+<circle x="1.7" y="0.8" radius="0.1" width="0.2" layer="51"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.159" size="0.8128" layer="27">&gt;VALUE</text>
+<smd name="4" x="-0.75" y="0" dx="0.7" dy="0.5" layer="1"/>
+<smd name="3" x="0.75" y="0" dx="0.7" dy="0.5" layer="1"/>
+<smd name="6" x="-0.675" y="-0.725" dx="0.55" dy="0.4" layer="1"/>
+<smd name="5" x="0.675" y="-0.725" dx="0.55" dy="0.4" layer="1"/>
+<smd name="2" x="-0.675" y="0.725" dx="0.55" dy="0.4" layer="1"/>
+<smd name="1" x="0.675" y="0.725" dx="0.55" dy="0.4" layer="1"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="USB" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="0" smashed="yes"/>
+<element name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="-2.54" smashed="yes"/>
+<element name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="-5.08" smashed="yes"/>
+<element name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="-7.62" smashed="yes"/>
+<element name="FD5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="-10.16" smashed="yes"/>
+<element name="FD6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="-12.7" smashed="yes"/>
+<element name="U1" library="RP2040" package="QFN40P700X700X90-57N" value="RP2040" x="-16.51" y="-30.48" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" RP2040 chip for Raspberry Pi Pico - ARM® Cortex®-M0+ MCU 32-Bit " x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Raspberry Pi" x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="RP2040" x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.615" y="-25.375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="None" x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RP2040/?ref=eda" x="-26.67" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-20.615" y="-35.585" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-10.16" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-10.16" y="-24.638" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-10.16" y="-26.162" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-6.35" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-6.35" y="-24.638" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-29.21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-6.35" y="-26.162" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="1.0uF" x="-2.54" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-2.54" y="-24.638" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12417" x="-29.21" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-2.54" y="-26.162" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="1.0uF" x="-19.05" y="-39.37" smashed="yes">
+<attribute name="NAME" x="-19.05" y="-38.608" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12417" x="-29.21" y="-36.83" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-19.05" y="-40.132" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-15.24" y="-39.37" smashed="yes">
+<attribute name="NAME" x="-15.24" y="-38.608" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-15.24" y="-40.132" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-11.43" y="-39.37" smashed="yes">
+<attribute name="NAME" x="-11.43" y="-38.608" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-11.43" y="-40.132" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-7.62" y="-39.37" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-38.608" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-48.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-7.62" y="-40.132" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-3.81" y="-39.37" smashed="yes">
+<attribute name="NAME" x="-3.81" y="-38.608" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-52.07" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-3.81" y="-40.132" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-19.05" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-19.05" y="-42.418" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-19.05" y="-43.942" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-15.24" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-15.24" y="-42.418" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-15.24" y="-43.942" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-11.43" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-11.43" y="-42.418" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29.21" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-11.43" y="-43.942" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="27" x="-7.62" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-42.418" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="-29.21" y="-67.31" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value=" " x="-7.62" y="-43.942" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="27" x="-3.81" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-3.81" y="-42.418" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="-29.21" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value=" " x="-3.81" y="-43.942" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="330" x="-19.05" y="-46.99" smashed="yes">
+<attribute name="NAME" x="-19.05" y="-46.228" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="-29.21" y="-74.93" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value=" " x="-19.05" y="-47.752" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE" x="-7.62" y="-46.99" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-46.355" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08575" x="-29.21" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-7.62" y="-47.625" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="Y1" library="ABLS-12.000MHZ-B4-T" package="XTAL_ABLS-12.000MHZ-B4-T" value="ABLS-12.000MHZ-B4-T" x="-12.7" y="-53.34" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" HC/49US (AT49) SMD LOW PROFILE CRYSTAL " x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Abracon LLC" x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ABLS-12.000MHZ-B4-T" x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.5" y="-50.49" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="HC-49/US Abracon LLC" x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ABLS-12.000MHZ-B4-T/?ref=eda" x="-12.7" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-20.5" y="-56.19" size="0.8128" layer="27" align="top-left"/>
+</element>
+<element name="C20" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="27pf" x="-15.24" y="-59.69" smashed="yes">
+<attribute name="MPN" value="CC0603JRNPO9BN270" x="-24.13" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-15.494" y="-58.42" size="0.635" layer="33" ratio="10" rot="R270"/>
+<attribute name="NAME" x="-14.351" y="-58.42" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="-16.8275" y="-58.42" size="0.635" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="C21" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="27pf" x="-10.16" y="-59.69" smashed="yes">
+<attribute name="MPN" value="CC0603JRNPO9BN270" x="-29.21" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.414" y="-58.42" size="0.635" layer="33" ratio="10" rot="R270"/>
+<attribute name="NAME" x="-9.271" y="-58.42" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="-11.7475" y="-58.42" size="0.635" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k" x="-19.05" y="-59.69" smashed="yes">
+<attribute name="NAME" x="-19.05" y="-58.928" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-07856" x="-29.21" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-19.05" y="-60.452" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="IC1" library="SamacSys_Parts" package="SON127P800X600X80-9N" value="IS25LP256D-JLLE-TR" x="-16.51" y="-64.77" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="IS25LP256D-JLLE-TR" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/is25lp256d-jlle-tr/integrated-silicon-solution-inc" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="NOR Flash 256M 3V 166MHZ Serial Flash" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Integrated Silicon Solution Inc." x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IS25LP256D-JLLE-TR" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="870-IS25LP256DJLLETR" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ISSI/IS25LP256D-JLLE-TR?qs=o7k0yqUNuKDsOqgNsf15cQ%3D%3D" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-16.51" y="-64.77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-16.51" y="-64.77" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-16.51" y="-64.77" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="-24.13" y="-69.85" smashed="yes">
+<attribute name="NAME" x="-24.13" y="-69.088" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-24.13" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-24.13" y="-70.612" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM" x="-15.24" y="-74.93" smashed="yes">
+<attribute name="NAME" x="-15.24" y="-73.025" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-13065" x="-20.32" y="-74.93" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-15.24" y="-76.835" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM" x="-15.24" y="-81.28" smashed="yes">
+<attribute name="NAME" x="-15.24" y="-79.375" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-13065" x="-25.4" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-15.24" y="-83.185" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="IC2" library="SamacSys_Parts" package="QFN40P500X500X80-41N" value="IS31FL3737-QFLS4-TR" x="-21.59" y="-87.63" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="IC LED DRVR LINEAR 45MA 40QFN" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumissil" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IS31FL3737-QFLS4-TR" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="870-31FL3737QFLS4TR" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3737-QFLS4-TR/?qs=o7k0yqUNuKAJ%252B%252BDONCPK0Q%3D%3D" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-21.59" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.59" y="-87.63" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-21.59" y="-87.63" size="1.27" layer="27" align="center"/>
+</element>
+<element name="RGB1" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-93.98" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-92.71" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-93.98" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-96.139" size="0.8128" layer="27"/>
+</element>
+<element name="RGB2" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-100.33" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-99.06" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-102.489" size="0.8128" layer="27"/>
+</element>
+<element name="RGB3" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-106.68" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-105.41" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-108.839" size="0.8128" layer="27"/>
+</element>
+<element name="RGB4" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-113.03" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-111.76" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-115.189" size="0.8128" layer="27"/>
+</element>
+<element name="RGB5" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-119.38" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-118.11" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-119.38" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-121.539" size="0.8128" layer="27"/>
+</element>
+<element name="RGB6" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-125.73" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-124.46" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-125.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-127.889" size="0.8128" layer="27"/>
+</element>
+<element name="RGB7" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-132.08" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-130.81" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-134.239" size="0.8128" layer="27"/>
+</element>
+<element name="RGB8" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-138.43" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-137.16" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-138.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-140.589" size="0.8128" layer="27"/>
+</element>
+<element name="RGB9" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-144.78" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-143.51" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-144.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-146.939" size="0.8128" layer="27"/>
+</element>
+<element name="RGB10" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-151.13" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-149.86" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-151.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-153.289" size="0.8128" layer="27"/>
+</element>
+<element name="RGB11" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-157.48" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-156.21" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-157.48" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-159.639" size="0.8128" layer="27"/>
+</element>
+<element name="RGB12" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-163.83" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-162.56" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-165.989" size="0.8128" layer="27"/>
+</element>
+<element name="RGB13" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-170.18" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-168.91" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-170.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-172.339" size="0.8128" layer="27"/>
+</element>
+<element name="RGB14" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-176.53" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-175.26" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-176.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-178.689" size="0.8128" layer="27"/>
+</element>
+<element name="RGB15" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-182.88" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-181.61" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-182.88" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-185.039" size="0.8128" layer="27"/>
+</element>
+<element name="RGB16" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-189.23" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-187.96" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-189.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-191.389" size="0.8128" layer="27"/>
+</element>
+<element name="RGB17" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-195.58" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-194.31" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-195.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-197.739" size="0.8128" layer="27"/>
+</element>
+<element name="RGB18" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-201.93" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-200.66" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-201.93" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-204.089" size="0.8128" layer="27"/>
+</element>
+<element name="RGB19" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-208.28" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-207.01" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-210.439" size="0.8128" layer="27"/>
+</element>
+<element name="RGB20" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-214.63" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-213.36" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-214.63" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-216.789" size="0.8128" layer="27"/>
+</element>
+<element name="RGB21" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-220.98" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-219.71" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-220.98" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-223.139" size="0.8128" layer="27"/>
+</element>
+<element name="RGB22" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-227.33" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-226.06" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-227.33" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-229.489" size="0.8128" layer="27"/>
+</element>
+<element name="RGB23" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-233.68" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-232.41" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-235.839" size="0.8128" layer="27"/>
+</element>
+<element name="RGB24" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-240.03" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-238.76" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-240.03" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-242.189" size="0.8128" layer="27"/>
+</element>
+<element name="RGB25" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-246.38" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-245.11" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-246.38" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-248.539" size="0.8128" layer="27"/>
+</element>
+<element name="RGB26" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-252.73" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-251.46" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-252.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-254.889" size="0.8128" layer="27"/>
+</element>
+<element name="RGB27" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-259.08" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-257.81" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-261.239" size="0.8128" layer="27"/>
+</element>
+<element name="RGB28" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-265.43" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-264.16" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-265.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-267.589" size="0.8128" layer="27"/>
+</element>
+<element name="RGB29" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-271.78" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-270.51" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-273.939" size="0.8128" layer="27"/>
+</element>
+<element name="RGB30" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-278.13" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-276.86" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-278.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-280.289" size="0.8128" layer="27"/>
+</element>
+<element name="RGB31" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-284.48" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-283.21" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-286.639" size="0.8128" layer="27"/>
+</element>
+<element name="RGB32" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-290.83" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-289.56" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-292.989" size="0.8128" layer="27"/>
+</element>
+<element name="RGB33" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-297.18" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-295.91" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-299.339" size="0.8128" layer="27"/>
+</element>
+<element name="RGB34" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-303.53" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-302.26" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-303.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-305.689" size="0.8128" layer="27"/>
+</element>
+<element name="RGB35" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-309.88" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-308.61" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-309.88" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-312.039" size="0.8128" layer="27"/>
+</element>
+<element name="RGB36" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-316.23" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-314.96" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-316.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-318.389" size="0.8128" layer="27"/>
+</element>
+<element name="RGB37" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-322.58" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-321.31" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-322.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-324.739" size="0.8128" layer="27"/>
+</element>
+<element name="RGB38" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-328.93" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-327.66" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-331.089" size="0.8128" layer="27"/>
+</element>
+<element name="RGB39" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-335.28" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-334.01" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-337.439" size="0.8128" layer="27"/>
+</element>
+<element name="RGB40" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-341.63" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-340.36" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-343.789" size="0.8128" layer="27"/>
+</element>
+<element name="RGB41" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-347.98" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-346.71" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-347.98" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-350.139" size="0.8128" layer="27"/>
+</element>
+<element name="RGB42" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-354.33" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-353.06" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-354.33" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-356.489" size="0.8128" layer="27"/>
+</element>
+<element name="RGB43" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-360.68" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-359.41" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-360.68" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-362.839" size="0.8128" layer="27"/>
+</element>
+<element name="RGB44" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-367.03" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-365.76" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-367.03" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-369.189" size="0.8128" layer="27"/>
+</element>
+<element name="RGB45" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-373.38" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-372.11" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-373.38" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-375.539" size="0.8128" layer="27"/>
+</element>
+<element name="RGB46" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-379.73" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-378.46" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-379.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-381.889" size="0.8128" layer="27"/>
+</element>
+<element name="RGB47" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-386.08" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-384.81" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-386.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-388.239" size="0.8128" layer="27"/>
+</element>
+<element name="RGB48" library="19-337C_RSBHGHC-A88_4T" package="LED_19-337C/RSBHGHC-A88/4T" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-392.43" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Red, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric) " x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Everlight Electronics Co Ltd" x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="19-337C/RSBHGHC-A88/4T" x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="-391.16" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="0606 Everlight Electronics Co Ltd" x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/19-337C/RSBHGHC-A88/4T/?ref=eda" x="-29.21" y="-392.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-30.48" y="-394.589" size="0.8128" layer="27"/>
+</element>
+</elements>
+<signals>
+<signal name="GND">
+<contactref element="U1" pad="57"/>
+<contactref element="U1" pad="19"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C4" pad="2"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C20" pad="2"/>
+<contactref element="C21" pad="2"/>
+<contactref element="D2" pad="C"/>
+<contactref element="IC1" pad="9"/>
+<contactref element="IC1" pad="4"/>
+<contactref element="S1" pad="3"/>
+<contactref element="S2" pad="3"/>
+<contactref element="S1" pad="4"/>
+<contactref element="S2" pad="4"/>
+<contactref element="C12" pad="2"/>
+<contactref element="IC2" pad="29"/>
+<wire x1="-17.29" y1="-80.48" x2="-19.09" y2="-86.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.19" y1="-80.48" x2="-17.29" y2="-80.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.29" y1="-74.13" x2="-17.29" y2="-80.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.19" y1="-74.13" x2="-17.29" y2="-74.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.55" y1="-69.85" x2="-17.29" y2="-74.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.41" y1="-66.675" x2="-23.55" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="-64.77" x2="-20.41" y2="-66.675" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.24" y1="-60.452" x2="-16.51" y2="-64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.16" y1="-60.452" x2="-15.24" y2="-60.452" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.743" y1="-46.99" x2="-10.16" y2="-60.452" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.85" y1="-43.18" x2="-6.743" y2="-46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.66" y1="-43.18" x2="-10.85" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.47" y1="-43.18" x2="-14.66" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.47" y1="-39.37" x2="-18.47" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.66" y1="-39.37" x2="-14.66" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.85" y1="-39.37" x2="-10.85" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.04" y1="-39.37" x2="-10.85" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.23" y1="-39.37" x2="-7.04" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.51" y1="-33.915" x2="-18.47" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="-30.48" x2="-17.51" y2="-33.915" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.58" y1="-25.4" x2="-16.51" y2="-30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.77" y1="-25.4" x2="-9.58" y2="-25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.96" y1="-25.4" x2="-5.77" y2="-25.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VOUT">
+<contactref element="U1" pad="45"/>
+<contactref element="U1" pad="50"/>
+<contactref element="U1" pad="23"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="C3" pad="1"/>
+<wire x1="-16.71" y1="-27.045" x2="-15.91" y2="-33.915" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.71" y1="-27.045" x2="-16.71" y2="-27.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.74" y1="-25.4" x2="-14.71" y2="-27.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.93" y1="-25.4" x2="-10.74" y2="-25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.12" y1="-25.4" x2="-6.93" y2="-25.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3.3V">
+<contactref element="U1" pad="44"/>
+<contactref element="C4" pad="1"/>
+<contactref element="U1" pad="43"/>
+<contactref element="U1" pad="1"/>
+<contactref element="U1" pad="33"/>
+<contactref element="U1" pad="10"/>
+<contactref element="U1" pad="49"/>
+<contactref element="U1" pad="42"/>
+<contactref element="U1" pad="22"/>
+<contactref element="U1" pad="48"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C7" pad="1"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="C11" pad="1"/>
+<contactref element="IC1" pad="8"/>
+<contactref element="C12" pad="1"/>
+<wire x1="-12.61" y1="-62.865" x2="-24.71" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.01" y1="-43.18" x2="-12.61" y2="-62.865" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.82" y1="-43.18" x2="-12.01" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.63" y1="-43.18" x2="-15.82" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.63" y1="-39.37" x2="-19.63" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.82" y1="-39.37" x2="-15.82" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.01" y1="-39.37" x2="-12.01" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.2" y1="-39.37" x2="-12.01" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.39" y1="-39.37" x2="-8.2" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.31" y1="-33.915" x2="-15.82" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.075" y1="-31.48" x2="-16.31" y2="-33.915" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.075" y1="-27.88" x2="-13.075" y2="-31.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.91" y1="-27.045" x2="-13.075" y2="-27.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.31" y1="-27.045" x2="-13.91" y2="-27.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.91" y1="-27.045" x2="-14.31" y2="-27.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.31" y1="-27.045" x2="-15.91" y2="-27.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.945" y1="-27.88" x2="-16.31" y2="-27.045" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.945" y1="-31.48" x2="-19.945" y2="-27.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB_DM_IN" class="1">
+<contactref element="R1" pad="1"/>
+<contactref element="U1" pad="46"/>
+<wire x1="-15.11" y1="-27.045" x2="-8.2" y2="-43.18" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB_DP_IN" class="1">
+<contactref element="U1" pad="47"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-15.51" y1="-27.045" x2="-4.39" y2="-43.18" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="QSPI_SCLK">
+<contactref element="U1" pad="52"/>
+</signal>
+<signal name="QSPI_SD1">
+<contactref element="U1" pad="55"/>
+</signal>
+<signal name="QSPI_SD0">
+<contactref element="U1" pad="53"/>
+</signal>
+<signal name="QSPI_SD2">
+<contactref element="U1" pad="54"/>
+</signal>
+<signal name="QSPI_SD3">
+<contactref element="U1" pad="51"/>
+</signal>
+<signal name="QSPI_CS">
+<contactref element="U1" pad="56"/>
+</signal>
+<signal name="!RESET">
+<contactref element="U1" pad="26"/>
+<contactref element="S2" pad="1"/>
+<contactref element="S2" pad="2"/>
+<wire x1="-13.19" y1="-82.08" x2="-17.29" y2="-82.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.71" y1="-33.915" x2="-13.19" y2="-82.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDA">
+<contactref element="U1" pad="2"/>
+</signal>
+<signal name="SCL">
+<contactref element="U1" pad="3"/>
+</signal>
+<signal name="LED_R">
+<contactref element="U1" pad="37"/>
+<contactref element="R10" pad="1"/>
+<wire x1="-13.075" y1="-29.88" x2="-19.63" y2="-46.99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DATA">
+<contactref element="U1" pad="4"/>
+</signal>
+<signal name="CLK">
+<contactref element="U1" pad="5"/>
+</signal>
+<signal name="XIN">
+<contactref element="U1" pad="20"/>
+<contactref element="Y1" pad="2"/>
+<contactref element="C20" pad="1"/>
+<wire x1="-7.95" y1="-53.34" x2="-15.24" y2="-58.928" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.11" y1="-33.915" x2="-7.95" y2="-53.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="XOUT">
+<contactref element="U1" pad="21"/>
+<contactref element="R14" pad="1"/>
+<wire x1="-16.71" y1="-33.915" x2="-19.9" y2="-59.69" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB_N" class="1">
+<contactref element="R1" pad="2"/>
+</signal>
+<signal name="USB_P" class="1">
+<contactref element="R2" pad="2"/>
+</signal>
+<signal name="XOUT_R">
+<contactref element="C21" pad="1"/>
+<contactref element="Y1" pad="1"/>
+<contactref element="R14" pad="2"/>
+<wire x1="-17.45" y1="-53.34" x2="-18.2" y2="-59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.16" y1="-58.928" x2="-18.2" y2="-59.69" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R10" pad="2"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-8.497" y1="-46.99" x2="-18.47" y2="-46.99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="!BOOT">
+<contactref element="S1" pad="1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="-13.19" y1="-75.73" x2="-17.29" y2="-75.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS1">
+<contactref element="RGB1" pad="6"/>
+<contactref element="RGB1" pad="4"/>
+<contactref element="RGB1" pad="2"/>
+<contactref element="RGB13" pad="6"/>
+<contactref element="RGB13" pad="4"/>
+<contactref element="RGB13" pad="2"/>
+<contactref element="RGB25" pad="6"/>
+<contactref element="RGB25" pad="4"/>
+<contactref element="RGB25" pad="2"/>
+<contactref element="RGB37" pad="6"/>
+<contactref element="RGB37" pad="4"/>
+<contactref element="RGB37" pad="2"/>
+<wire x1="-29.96" y1="-170.18" x2="-29.885" y2="-170.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-169.455" x2="-29.96" y2="-170.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-94.705" x2="-29.885" y2="-169.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-93.98" x2="-29.885" y2="-94.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-93.255" x2="-29.96" y2="-93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-245.655" x2="-29.885" y2="-170.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-246.38" x2="-29.885" y2="-245.655" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-247.105" x2="-29.96" y2="-246.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-321.855" x2="-29.885" y2="-247.105" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-322.58" x2="-29.885" y2="-321.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-323.305" x2="-29.96" y2="-322.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS2">
+<contactref element="RGB38" pad="2"/>
+<contactref element="RGB38" pad="4"/>
+<contactref element="RGB38" pad="6"/>
+<contactref element="RGB26" pad="2"/>
+<contactref element="RGB26" pad="4"/>
+<contactref element="RGB26" pad="6"/>
+<contactref element="RGB14" pad="2"/>
+<contactref element="RGB14" pad="4"/>
+<contactref element="RGB14" pad="6"/>
+<contactref element="RGB2" pad="2"/>
+<contactref element="RGB2" pad="4"/>
+<contactref element="RGB2" pad="6"/>
+<wire x1="-29.96" y1="-176.53" x2="-29.885" y2="-175.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-177.255" x2="-29.96" y2="-176.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-101.055" x2="-29.885" y2="-175.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-100.33" x2="-29.885" y2="-101.055" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-99.605" x2="-29.96" y2="-100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-252.005" x2="-29.885" y2="-177.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-252.73" x2="-29.885" y2="-252.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-253.455" x2="-29.96" y2="-252.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-328.205" x2="-29.885" y2="-253.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-328.93" x2="-29.885" y2="-328.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-329.655" x2="-29.96" y2="-328.93" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS3">
+<contactref element="RGB39" pad="2"/>
+<contactref element="RGB39" pad="4"/>
+<contactref element="RGB39" pad="6"/>
+<contactref element="RGB27" pad="2"/>
+<contactref element="RGB27" pad="4"/>
+<contactref element="RGB27" pad="6"/>
+<contactref element="RGB15" pad="2"/>
+<contactref element="RGB15" pad="4"/>
+<contactref element="RGB15" pad="6"/>
+<contactref element="RGB3" pad="2"/>
+<contactref element="RGB3" pad="4"/>
+<contactref element="RGB3" pad="6"/>
+<wire x1="-29.885" y1="-183.605" x2="-29.96" y2="-182.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-182.155" x2="-29.96" y2="-182.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-107.405" x2="-29.885" y2="-182.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-106.68" x2="-29.885" y2="-107.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-105.955" x2="-29.96" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-258.355" x2="-29.885" y2="-183.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-259.08" x2="-29.885" y2="-258.355" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-259.805" x2="-29.96" y2="-259.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-334.555" x2="-29.885" y2="-259.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-335.28" x2="-29.885" y2="-334.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-336.005" x2="-29.96" y2="-335.28" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS4">
+<contactref element="RGB4" pad="6"/>
+<contactref element="RGB4" pad="4"/>
+<contactref element="RGB4" pad="2"/>
+<contactref element="RGB16" pad="6"/>
+<contactref element="RGB16" pad="4"/>
+<contactref element="RGB16" pad="2"/>
+<contactref element="RGB28" pad="6"/>
+<contactref element="RGB28" pad="4"/>
+<contactref element="RGB28" pad="2"/>
+<contactref element="RGB40" pad="6"/>
+<contactref element="RGB40" pad="4"/>
+<contactref element="RGB40" pad="2"/>
+<wire x1="-29.96" y1="-189.23" x2="-29.885" y2="-189.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-188.505" x2="-29.96" y2="-189.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-113.755" x2="-29.885" y2="-188.505" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-113.03" x2="-29.885" y2="-113.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-112.305" x2="-29.96" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-264.705" x2="-29.885" y2="-189.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-265.43" x2="-29.885" y2="-264.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-266.155" x2="-29.96" y2="-265.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-340.905" x2="-29.885" y2="-266.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-341.63" x2="-29.885" y2="-340.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-342.355" x2="-29.96" y2="-341.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS5">
+<contactref element="RGB5" pad="6"/>
+<contactref element="RGB5" pad="4"/>
+<contactref element="RGB5" pad="2"/>
+<contactref element="RGB17" pad="6"/>
+<contactref element="RGB17" pad="4"/>
+<contactref element="RGB17" pad="2"/>
+<contactref element="RGB29" pad="6"/>
+<contactref element="RGB29" pad="4"/>
+<contactref element="RGB29" pad="2"/>
+<contactref element="RGB41" pad="6"/>
+<contactref element="RGB41" pad="4"/>
+<contactref element="RGB41" pad="2"/>
+<wire x1="-29.96" y1="-195.58" x2="-29.885" y2="-196.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-194.855" x2="-29.96" y2="-195.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-120.105" x2="-29.885" y2="-194.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-119.38" x2="-29.885" y2="-120.105" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-118.655" x2="-29.96" y2="-119.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-271.055" x2="-29.885" y2="-196.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-271.78" x2="-29.885" y2="-271.055" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-272.505" x2="-29.96" y2="-271.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-347.255" x2="-29.885" y2="-272.505" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-347.98" x2="-29.885" y2="-347.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-348.705" x2="-29.96" y2="-347.98" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS6">
+<contactref element="RGB6" pad="6"/>
+<contactref element="RGB6" pad="4"/>
+<contactref element="RGB6" pad="2"/>
+<contactref element="RGB18" pad="6"/>
+<contactref element="RGB18" pad="4"/>
+<contactref element="RGB18" pad="2"/>
+<contactref element="RGB30" pad="6"/>
+<contactref element="RGB30" pad="4"/>
+<contactref element="RGB30" pad="2"/>
+<contactref element="RGB42" pad="6"/>
+<contactref element="RGB42" pad="4"/>
+<contactref element="RGB42" pad="2"/>
+<wire x1="-29.96" y1="-201.93" x2="-29.885" y2="-202.655" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-201.205" x2="-29.96" y2="-201.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-126.455" x2="-29.885" y2="-201.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-125.73" x2="-29.885" y2="-126.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-125.005" x2="-29.96" y2="-125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-277.405" x2="-29.885" y2="-202.655" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-278.13" x2="-29.885" y2="-277.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-278.855" x2="-29.96" y2="-278.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-353.605" x2="-29.885" y2="-278.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-354.33" x2="-29.885" y2="-353.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-355.055" x2="-29.96" y2="-354.33" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS7">
+<contactref element="RGB7" pad="6"/>
+<contactref element="RGB7" pad="4"/>
+<contactref element="RGB7" pad="2"/>
+<contactref element="RGB19" pad="6"/>
+<contactref element="RGB19" pad="4"/>
+<contactref element="RGB19" pad="2"/>
+<contactref element="RGB31" pad="6"/>
+<contactref element="RGB31" pad="4"/>
+<contactref element="RGB31" pad="2"/>
+<contactref element="RGB43" pad="6"/>
+<contactref element="RGB43" pad="4"/>
+<contactref element="RGB43" pad="2"/>
+<wire x1="-29.96" y1="-208.28" x2="-29.885" y2="-209.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-207.555" x2="-29.96" y2="-208.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-132.805" x2="-29.885" y2="-207.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-132.08" x2="-29.885" y2="-132.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-131.355" x2="-29.96" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-283.755" x2="-29.885" y2="-209.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-284.48" x2="-29.885" y2="-283.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-285.205" x2="-29.96" y2="-284.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-359.955" x2="-29.885" y2="-285.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-360.68" x2="-29.885" y2="-359.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-361.405" x2="-29.96" y2="-360.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS8">
+<contactref element="RGB8" pad="6"/>
+<contactref element="RGB8" pad="4"/>
+<contactref element="RGB8" pad="2"/>
+<contactref element="RGB20" pad="6"/>
+<contactref element="RGB20" pad="4"/>
+<contactref element="RGB20" pad="2"/>
+<contactref element="RGB32" pad="6"/>
+<contactref element="RGB32" pad="4"/>
+<contactref element="RGB32" pad="2"/>
+<contactref element="RGB44" pad="6"/>
+<contactref element="RGB44" pad="4"/>
+<contactref element="RGB44" pad="2"/>
+<wire x1="-29.96" y1="-214.63" x2="-29.885" y2="-215.355" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-213.905" x2="-29.96" y2="-214.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-139.155" x2="-29.885" y2="-213.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-138.43" x2="-29.885" y2="-139.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-137.705" x2="-29.96" y2="-138.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-290.105" x2="-29.885" y2="-215.355" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-290.83" x2="-29.885" y2="-290.105" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-291.555" x2="-29.96" y2="-290.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-366.305" x2="-29.885" y2="-291.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-367.03" x2="-29.885" y2="-366.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-367.755" x2="-29.96" y2="-367.03" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS9">
+<contactref element="RGB9" pad="6"/>
+<contactref element="RGB9" pad="4"/>
+<contactref element="RGB9" pad="2"/>
+<contactref element="RGB21" pad="6"/>
+<contactref element="RGB21" pad="4"/>
+<contactref element="RGB21" pad="2"/>
+<contactref element="RGB33" pad="6"/>
+<contactref element="RGB33" pad="4"/>
+<contactref element="RGB33" pad="2"/>
+<contactref element="RGB45" pad="6"/>
+<contactref element="RGB45" pad="4"/>
+<contactref element="RGB45" pad="2"/>
+<wire x1="-29.96" y1="-220.98" x2="-29.885" y2="-221.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-220.255" x2="-29.96" y2="-220.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-145.505" x2="-29.885" y2="-220.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-144.78" x2="-29.885" y2="-145.505" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-144.055" x2="-29.96" y2="-144.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-296.455" x2="-29.885" y2="-221.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-297.18" x2="-29.885" y2="-296.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-297.905" x2="-29.96" y2="-297.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-372.655" x2="-29.885" y2="-297.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-373.38" x2="-29.885" y2="-372.655" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-374.105" x2="-29.96" y2="-373.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS10">
+<contactref element="RGB10" pad="6"/>
+<contactref element="RGB10" pad="4"/>
+<contactref element="RGB10" pad="2"/>
+<contactref element="RGB22" pad="6"/>
+<contactref element="RGB22" pad="4"/>
+<contactref element="RGB22" pad="2"/>
+<contactref element="RGB34" pad="6"/>
+<contactref element="RGB34" pad="4"/>
+<contactref element="RGB34" pad="2"/>
+<contactref element="RGB46" pad="6"/>
+<contactref element="RGB46" pad="4"/>
+<contactref element="RGB46" pad="2"/>
+<wire x1="-29.96" y1="-151.13" x2="-29.885" y2="-151.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-150.405" x2="-29.96" y2="-151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-226.605" x2="-29.885" y2="-151.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-227.33" x2="-29.885" y2="-226.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-228.055" x2="-29.96" y2="-227.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-302.805" x2="-29.885" y2="-228.055" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-303.53" x2="-29.885" y2="-302.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-304.255" x2="-29.96" y2="-303.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-379.005" x2="-29.885" y2="-304.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-379.73" x2="-29.885" y2="-379.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-380.455" x2="-29.96" y2="-379.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS11">
+<contactref element="RGB11" pad="6"/>
+<contactref element="RGB11" pad="4"/>
+<contactref element="RGB11" pad="2"/>
+<contactref element="RGB23" pad="6"/>
+<contactref element="RGB23" pad="4"/>
+<contactref element="RGB23" pad="2"/>
+<contactref element="RGB35" pad="6"/>
+<contactref element="RGB35" pad="4"/>
+<contactref element="RGB35" pad="2"/>
+<contactref element="RGB47" pad="6"/>
+<contactref element="RGB47" pad="4"/>
+<contactref element="RGB47" pad="2"/>
+<wire x1="-29.96" y1="-157.48" x2="-29.885" y2="-158.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-156.755" x2="-29.96" y2="-157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-232.955" x2="-29.885" y2="-158.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-233.68" x2="-29.885" y2="-232.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-234.405" x2="-29.96" y2="-233.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-309.155" x2="-29.885" y2="-234.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-309.88" x2="-29.885" y2="-309.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-310.605" x2="-29.96" y2="-309.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-385.355" x2="-29.885" y2="-310.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-386.08" x2="-29.885" y2="-385.355" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-386.805" x2="-29.96" y2="-386.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CS12">
+<contactref element="RGB12" pad="6"/>
+<contactref element="RGB12" pad="4"/>
+<contactref element="RGB12" pad="2"/>
+<contactref element="RGB24" pad="6"/>
+<contactref element="RGB24" pad="4"/>
+<contactref element="RGB24" pad="2"/>
+<contactref element="RGB36" pad="6"/>
+<contactref element="RGB36" pad="4"/>
+<contactref element="RGB36" pad="2"/>
+<contactref element="RGB48" pad="6"/>
+<contactref element="RGB48" pad="4"/>
+<contactref element="RGB48" pad="2"/>
+<wire x1="-29.96" y1="-163.83" x2="-29.885" y2="-164.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-163.105" x2="-29.96" y2="-163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-239.305" x2="-29.885" y2="-164.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-240.03" x2="-29.885" y2="-239.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-240.755" x2="-29.96" y2="-240.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-315.505" x2="-29.885" y2="-240.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-316.23" x2="-29.885" y2="-315.505" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-316.955" x2="-29.96" y2="-316.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-391.705" x2="-29.885" y2="-316.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.96" y1="-392.43" x2="-29.885" y2="-391.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.885" y1="-393.155" x2="-29.96" y2="-392.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW12">
+<contactref element="RGB1" pad="5"/>
+<contactref element="RGB2" pad="5"/>
+<contactref element="RGB3" pad="5"/>
+<contactref element="RGB4" pad="5"/>
+<contactref element="RGB5" pad="5"/>
+<contactref element="RGB6" pad="5"/>
+<contactref element="RGB7" pad="5"/>
+<contactref element="RGB8" pad="5"/>
+<contactref element="RGB9" pad="5"/>
+<contactref element="RGB10" pad="5"/>
+<contactref element="RGB11" pad="5"/>
+<contactref element="RGB12" pad="5"/>
+<wire x1="-28.535" y1="-158.205" x2="-28.535" y2="-164.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-151.855" x2="-28.535" y2="-158.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-145.505" x2="-28.535" y2="-151.855" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-139.155" x2="-28.535" y2="-145.505" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-132.805" x2="-28.535" y2="-139.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-126.455" x2="-28.535" y2="-132.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-120.105" x2="-28.535" y2="-126.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-113.755" x2="-28.535" y2="-120.105" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-107.405" x2="-28.535" y2="-113.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-101.055" x2="-28.535" y2="-107.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-94.705" x2="-28.535" y2="-101.055" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW11">
+<contactref element="RGB1" pad="3"/>
+<contactref element="RGB2" pad="3"/>
+<contactref element="RGB3" pad="3"/>
+<contactref element="RGB4" pad="3"/>
+<contactref element="RGB5" pad="3"/>
+<contactref element="RGB6" pad="3"/>
+<contactref element="RGB7" pad="3"/>
+<contactref element="RGB8" pad="3"/>
+<contactref element="RGB9" pad="3"/>
+<contactref element="RGB10" pad="3"/>
+<contactref element="RGB11" pad="3"/>
+<contactref element="RGB12" pad="3"/>
+<wire x1="-28.46" y1="-157.48" x2="-28.46" y2="-163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-151.13" x2="-28.46" y2="-157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-144.78" x2="-28.46" y2="-151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-138.43" x2="-28.46" y2="-144.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-132.08" x2="-28.46" y2="-138.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-125.73" x2="-28.46" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-119.38" x2="-28.46" y2="-125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-113.03" x2="-28.46" y2="-119.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-106.68" x2="-28.46" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-100.33" x2="-28.46" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.46" y1="-93.98" x2="-28.46" y2="-100.33" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW10">
+<contactref element="RGB1" pad="1"/>
+<contactref element="RGB2" pad="1"/>
+<contactref element="RGB3" pad="1"/>
+<contactref element="RGB4" pad="1"/>
+<contactref element="RGB5" pad="1"/>
+<contactref element="RGB6" pad="1"/>
+<contactref element="RGB7" pad="1"/>
+<contactref element="RGB8" pad="1"/>
+<contactref element="RGB9" pad="1"/>
+<contactref element="RGB10" pad="1"/>
+<contactref element="RGB11" pad="1"/>
+<contactref element="RGB12" pad="1"/>
+<wire x1="-28.535" y1="-156.755" x2="-28.535" y2="-163.105" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-150.405" x2="-28.535" y2="-156.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-144.055" x2="-28.535" y2="-150.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-137.705" x2="-28.535" y2="-144.055" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-131.355" x2="-28.535" y2="-137.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-125.005" x2="-28.535" y2="-131.355" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-118.655" x2="-28.535" y2="-125.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-112.305" x2="-28.535" y2="-118.655" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-105.955" x2="-28.535" y2="-112.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-99.605" x2="-28.535" y2="-105.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.535" y1="-93.255" x2="-28.535" y2="-99.605" width="0" layer="19" extent="1-1"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
+</eagle>

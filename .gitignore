@@ -49,3 +49,9 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+piboard_bottom_bom.xlsx
+piboard_bottom_bom.csv
+piboard_centroid.csv
+piboard_top_bom.csv
+piboard_top_bom.xlsx
+piboard_top_cpl.csv

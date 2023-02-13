@@ -1361,210 +1361,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </device>
 </devices>
 </deviceset>
-<deviceset name="10KOHM" urn="urn:adsk.eagle:component:39764/1" prefix="R" library_version="1">
-<description>&lt;h3&gt;10kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/6W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/6W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/6W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-00824"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="100KOHM" urn="urn:adsk.eagle:component:39765/1" prefix="R" library_version="1">
 <description>&lt;h3&gt;100kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -1734,19 +1530,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 &lt;a href="https://www.seeedstudio.com"&gt;www.seeedstudio.com&lt;/a&gt;
 &lt;br&gt;&lt;/b&gt;</description>
 <packages>
-<package name="C0603" urn="urn:adsk.eagle:footprint:8004273/1" library_version="3">
-<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
-<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
-<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
-<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
-<text x="0.889" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
-<text x="-1.5875" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
-<text x="-0.254" y="1.27" size="0.635" layer="33" ratio="10" rot="R270">&gt;name</text>
-<rectangle x1="-1.27" y1="-0.508" x2="1.27" y2="0.508" layer="39" rot="R270"/>
-</package>
 <package name="C0402" urn="urn:adsk.eagle:footprint:8004271/1" library_version="3">
 <description>&lt;b&gt;0402&lt;b&gt;&lt;p&gt;</description>
 <smd name="1" x="0" y="0.4625" dx="0.5" dy="0.5" layer="1" roundness="50" rot="R270"/>
@@ -1783,12 +1566,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </package>
 </packages>
 <packages3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:8004287/1" type="box" library_version="3">
-<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
-</package3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:8004285/1" type="box" library_version="3">
 <description>&lt;b&gt;0402&lt;b&gt;&lt;p&gt;</description>
 <packageinstances>
@@ -1827,24 +1604,24 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CERAMIC-27PF-50V-5%-NPO(0603)" urn="urn:adsk.eagle:component:8004301/1" prefix="C" uservalue="yes" library_version="3">
-<description>302010142</description>
+<deviceset name="CERAMIC-33PF-50V-5%-NPO(0402)" urn="urn:adsk.eagle:component:8004302/1" prefix="C" uservalue="yes" library_version="3">
+<description>302010000</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="C0603">
+<device name="" package="C0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8004287/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004285/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC0603JRNPO9BN270" constant="no"/>
-<attribute name="VALUE" value="27pf" constant="no"/>
+<attribute name="MPN" value="CC0402JRNPO9BN330"/>
+<attribute name="VALUE" value="33pf"/>
 </technology>
 </technologies>
 </device>
@@ -3227,15 +3004,19 @@ DIN A3, landscape with location and doc. field</description>
 <symbols>
 <symbol name="M25">
 <circle x="0" y="0" radius="5.6796125" width="0.1524" layer="94"/>
+<pin name="P$1" x="0" y="-10.668" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="M25">
+<deviceset name="M25" prefix="H">
 <gates>
 <gate name="G$1" symbol="M25" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="M25">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5246,8 +5027,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="27"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="27"/>
 <part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="330"/>
-<part name="C20" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-27PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="27pf"/>
-<part name="C21" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-27PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="27pf"/>
+<part name="C20" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-33PF-50V-5%-NPO(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="33pf"/>
+<part name="C21" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-33PF-50V-5%-NPO(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="33pf"/>
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value=" "/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -5363,7 +5144,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET_PCH" device="-DMG2307L" package3d_urn="urn:adsk.eagle:package:38446/1" value="2.5A/30V/105mΩ"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/1" value="10K"/>
 <part name="GND27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
@@ -5472,6 +5253,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND62" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="H8" library="M25" deviceset="M25" device=""/>
 <part name="C42" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="TANTALUM-SMD-22UF-10V(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:8004284/1" value="22uF"/>
+<part name="C43" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
+<part name="GND63" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND64" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND65" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND66" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND67" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND68" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND69" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND70" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5623,10 +5413,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND12" gate="1" x="27.9146" y="24.3586" smashed="yes">
 <attribute name="VALUE" x="27.9146" y="24.1046" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
-<instance part="H2" gate="G$1" x="218.44" y="43.18" smashed="yes"/>
-<instance part="H4" gate="G$1" x="218.44" y="27.94" smashed="yes"/>
-<instance part="H1" gate="G$1" x="205.74" y="43.18" smashed="yes"/>
-<instance part="H3" gate="G$1" x="205.74" y="27.94" smashed="yes"/>
+<instance part="H2" gate="G$1" x="195.58" y="53.34" smashed="yes"/>
+<instance part="H4" gate="G$1" x="233.68" y="53.34" smashed="yes"/>
+<instance part="H1" gate="G$1" x="180.34" y="53.34" smashed="yes"/>
+<instance part="H3" gate="G$1" x="167.64" y="53.34" smashed="yes"/>
 <instance part="R3" gate="G$1" x="208.28" y="154.94" smashed="yes">
 <attribute name="NAME" x="204.6986" y="155.2702" size="1.016" layer="95" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="212.3694" y="156.2354" size="1.016" layer="96" font="vector" ratio="20" align="top-center"/>
@@ -5643,9 +5433,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="121.92" y="98.044" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="121.92" y="96.012" size="1.778" layer="96" font="vector" align="top-center" display="off"/>
 </instance>
-<instance part="H5" gate="G$1" x="236.22" y="43.18" smashed="yes"/>
-<instance part="H6" gate="G$1" x="236.22" y="27.94" smashed="yes"/>
-<instance part="H7" gate="G$1" x="248.92" y="43.18" smashed="yes"/>
+<instance part="H5" gate="G$1" x="208.28" y="53.34" smashed="yes"/>
+<instance part="H6" gate="G$1" x="246.38" y="53.34" smashed="yes"/>
+<instance part="H7" gate="G$1" x="220.98" y="53.34" smashed="yes"/>
 <instance part="MK1" gate="G$1" x="76.2" y="20.32" smashed="yes">
 <attribute name="NAME" x="65.9552" y="28.00365" size="1.27" layer="95" font="vector" ratio="20"/>
 <attribute name="VALUE" x="76.4657" y="28.0533" size="1.27" layer="96" font="vector" ratio="20"/>
@@ -5662,7 +5452,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND62" gate="1" x="32.9946" y="16.7386" smashed="yes">
 <attribute name="VALUE" x="32.9946" y="16.4846" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
-<instance part="H8" gate="G$1" x="248.92" y="27.94" smashed="yes"/>
+<instance part="H8" gate="G$1" x="259.08" y="53.34" smashed="yes"/>
+<instance part="GND63" gate="1" x="167.64" y="33.02" smashed="yes">
+<attribute name="VALUE" x="167.64" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND64" gate="1" x="180.34" y="33.02" smashed="yes">
+<attribute name="VALUE" x="180.34" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND65" gate="1" x="195.58" y="33.02" smashed="yes">
+<attribute name="VALUE" x="195.58" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND66" gate="1" x="208.28" y="33.02" smashed="yes">
+<attribute name="VALUE" x="208.28" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND67" gate="1" x="220.98" y="33.02" smashed="yes">
+<attribute name="VALUE" x="220.98" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND68" gate="1" x="233.68" y="33.02" smashed="yes">
+<attribute name="VALUE" x="233.68" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND69" gate="1" x="246.38" y="33.02" smashed="yes">
+<attribute name="VALUE" x="246.38" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="GND70" gate="1" x="259.08" y="33.02" smashed="yes">
+<attribute name="VALUE" x="259.08" y="32.766" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5797,6 +5611,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="Q1" gate="G$1" pin="G2"/>
 <wire x1="27.9146" y1="26.8986" x2="27.9146" y2="37.3888" width="0.1524" layer="91"/>
 <wire x1="27.9146" y1="37.3888" x2="25.8826" y2="37.3888" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND63" gate="1" pin="GND"/>
+<pinref part="H3" gate="G$1" pin="P$1"/>
+<wire x1="167.64" y1="35.56" x2="167.64" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND64" gate="1" pin="GND"/>
+<pinref part="H1" gate="G$1" pin="P$1"/>
+<wire x1="180.34" y1="35.56" x2="180.34" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND65" gate="1" pin="GND"/>
+<pinref part="H2" gate="G$1" pin="P$1"/>
+<wire x1="195.58" y1="35.56" x2="195.58" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND66" gate="1" pin="GND"/>
+<pinref part="H5" gate="G$1" pin="P$1"/>
+<wire x1="208.28" y1="35.56" x2="208.28" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND67" gate="1" pin="GND"/>
+<pinref part="H7" gate="G$1" pin="P$1"/>
+<wire x1="220.98" y1="35.56" x2="220.98" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND68" gate="1" pin="GND"/>
+<pinref part="H4" gate="G$1" pin="P$1"/>
+<wire x1="233.68" y1="35.56" x2="233.68" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND70" gate="1" pin="GND"/>
+<pinref part="H8" gate="G$1" pin="P$1"/>
+<wire x1="259.08" y1="35.56" x2="259.08" y2="42.672" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND69" gate="1" pin="GND"/>
+<pinref part="H6" gate="G$1" pin="P$1"/>
+<wire x1="246.38" y1="35.56" x2="246.38" y2="42.672" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -6316,6 +6170,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="84.074" y="39.878" size="1.27" layer="95" font="vector" ratio="20"/>
 <attribute name="VALUE" x="84.328" y="34.544" size="1.27" layer="96" font="vector" ratio="20"/>
 </instance>
+<instance part="C43" gate="G$1" x="49.6824" y="160.1724" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.1932" y="161.671" size="1.016" layer="95" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="53.086" y="161.5948" size="1.016" layer="96" font="vector" ratio="20" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6358,6 +6216,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="43.18" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="152.4" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 <junction x="27.94" y="147.32"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="44.6024" y1="160.1724" x2="27.94" y2="160.1724" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="160.1724" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
+<junction x="27.94" y="152.4"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -6561,6 +6423,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="60.96" y1="127" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="152.4" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <label x="50.2158" y="153.3398" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="152.4" x2="60.96" y2="160.1724" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="160.1724" x2="52.2224" y2="160.1724" width="0.1524" layer="91"/>
+<junction x="60.96" y="152.4"/>
 </segment>
 </net>
 <net name="VIN" class="0">
